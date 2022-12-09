@@ -119,7 +119,7 @@ printf("A:\n");
 for (int i=0;i<M;i++){
     for (int j=0;j<M;j++)
     {
-        printf("%3d ", A[i][j]);
+        printf("%d ", A[i][j]);
     }
     printf("\n");
 }
@@ -128,7 +128,7 @@ printf("B:\n");
 
 for (int i=0;i<M;i++){
     for (int j=0;j<N;j++){
-        printf("%3d ", B[i][j]);
+        printf("%d ", B[i][j]);
     }
     printf("\n");
 }
@@ -161,7 +161,7 @@ void trans(int **B,int **T,int M,int N){
 printf("\nTransposition of B:\n");
     for (int i=0;i<N;i++){
         for (int j=0;j<M;j++){
-            printf("%3d ", T[i][j]);
+            printf("%d ", T[i][j]);
         }
     printf("\n");
     }
@@ -182,7 +182,7 @@ void prod(int **A,int **B,int **Prod,int M,int N){
         for (int i=0;i<M;i++){
             for (int j=0;j<N;j++)
             {
-                printf("%3d ", Prod[i][j]);
+                printf("%d ", Prod[i][j]);
             }
         printf("\n");
         }
@@ -217,7 +217,7 @@ int temp;
 
     for (int i=0;i<M;i++){
         for (int j=0;j<M;j++){
-            printf("%3d ", A[i][j]);
+            printf("%d ", A[i][j]);
         }
     printf("\n");
     }
@@ -239,7 +239,7 @@ scanf("%d",&sort);
     }
 
     for(int j=0;j<M;j++){
-        printf("%3d ",A[sort][j]);
+        printf("%d ",A[sort][j]);
     }
 }
 }
